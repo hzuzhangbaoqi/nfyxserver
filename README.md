@@ -16,7 +16,7 @@ git clone https://github.com/tumobi/nideshop
 ```
 + 创建数据库nideshop并导入项目根目录下的nideshop.sql
 ```
-CREATE SCHEMA `nideshop` DEFAULT CHARACTER SET utf8mb4 ;
+CREATE SCHEMA `nfyx` DEFAULT CHARACTER SET utf8mb4 ;
 ```
 > 注意数据库字符编码为utf8mb4 
 + 更改数据库配置
@@ -27,13 +27,13 @@ const mysql = require('think-model-mysql');
 
 module.exports = {
     handle: mysql,
-    database: 'nideshop',
-    prefix: 'nideshop_',
+    database: 'nfyx',
+    prefix: 'nfyx_',
     encoding: 'utf8mb4',
     host: '127.0.0.1',
     port: '3306',
     user: 'root',
-    password: '你的密码',
+    password: 'root',
     dateStrings: true
 };
 ```

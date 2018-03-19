@@ -1,6 +1,6 @@
 {
   "name": "nideshop",
-  "description": "nideshop - open source mini program shop",
+  "description": "nfyx A WeChat small program for helping the poor to help the poor",
   "version": "1.0.0",
   "scripts": {
     "start": "node development.js",
