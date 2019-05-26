@@ -21,6 +21,7 @@ module.exports = class extends Base {
           categoryList.push(child);
         }
       });
+
     });
     return this.success(categoryList);
   }
@@ -66,4 +67,5 @@ module.exports = class extends Base {
 
     return this.success();
   }
+  console.log("我改了这里")
 };
